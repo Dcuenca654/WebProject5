@@ -199,8 +199,10 @@ aside {
 	}
 	p {
 		font-size: 80%;
+		width: inherit;
+		text-align: center;
 	}
-	#wright {
+	#wright, #ctruck {
 		display: none;
 	}
 	#KCKingdom {
@@ -227,7 +229,15 @@ aside {
 	aside {
 		float: none;
 		width: auto;
-
-
+	}
+	#bolton, #creed, #celeb {
+		float: none;
+		margin: auto;
+	}
+	main li {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100;
 	}
 	}
