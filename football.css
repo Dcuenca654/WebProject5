@@ -1,0 +1,193 @@
+body {background-color: #ffffff;
+	 font-family: Verdana, Arial, sans-serif;
+	 background-image: linear-gradient(to bottom,
+		#F51219, #ffffff, #fdfd3e, #ffffff, #F51219);
+	 }
+#KCingdom {
+	color: #000000;
+	background-color: #ffffff;
+	overflow: hidden;
+	background-size:contain;
+
+}
+h1 {
+	color: #000000;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+h2 {
+	color: #F51219;
+	font-family: "Bernard MT Condensed",Arial, sans-serif;
+	}
+h3 {
+	color: #000000;
+	font-size: 130%;
+	font-family: "Cambria", Arial, serif;
+	margin-left: 20px;
+}
+footer {font-size: 70%;
+	  text-align: center;
+	  padding: 10px;
+	  background-color: #A7988B;
+	  clear: both;
+}
+#kcnav {
+	margin:auto;
+	width: 80%;
+	background-color: #A7988B;
+	color: #000066;
+	min-width: 960px;
+	max-width: 1200px;
+}
+nav {
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	float: left;
+	width: 180px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav a{
+	background-color: #A7988B;
+	border: 2px solid #000000;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+}
+nav a:link {
+	color: #ffffff;
+}
+nav a:visited {
+	color: #000000;
+}
+nav a:hover{
+	color: #F51219;
+	background-color: #ddd9d9;
+}
+main {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 20px 20px;
+	overflow: auto;
+}
+main ul {
+	list-style-type: none;
+}
+main li {
+	display: inline-block;
+	width: 225px;
+	margin: 10px;
+	background-color: #eaeaea;
+	padding-bottom: 10px;
+	text-align: center;
+	font-style: italic;
+	font-family: Georgia, sans-serif;
+	overflow: auto;
+}
+main p {
+	position: relative;
+	left: 20px;
+	width: 500px;
+}
+aside {
+	 width: 160px;
+	 background-color: #A7988B;
+	 padding: 20px;
+	 font-size: 100%;
+	 font-weight: bold;
+	 box-shadow: 5px 5px 5px #333333;
+	 float: right;
+	 margin-right: 80px;
+	 margin-top: 30px;
+	 margin-bottom: 0;
+}
+#tagline {
+	margin-top: 80px;
+	padding-right: 20px;
+	font-size: .80em;
+	color: #00005D;
+	text-align: right;
+	font-style: italic;
+}
+#wright {
+	float: right;
+	margin: 15px;
+	box-shadow: 5px 5px 5px #333333;
+}
+#list1 {
+	color: ;
+}
+#chiefsnav {
+	height: 342px;
+	background-image: url(images/chiefsnav1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#chiefsnav2 {
+	height: 402px;
+	background-image: url(images/cstadium1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#chiefsnav3 {
+	height: 685px;
+	background-position: bottom;
+	background-image: url(images/chiefsnav3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#chiefsnav4 {
+	height: 247px;
+	background-image: url(images/chiefsnav4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#chiefsnav5 {
+	height: 380px;
+	background-image: url(images/chiefsnav1.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#btab, #ctab{
+	background-color: #333333;
+	color: #e8e8e8;
+	padding: 20px;
+	left: 30px;
+}
+#celeb {
+	float: right;
+	box-shadow: 5px 5px 5px #333333;
+}
+#ctruck {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	box-shadow: 5px 5px 5px #333333;
+}
+.questions {
+	width: 650px;
+	text-align: left;
+	background-color: inherit;
+	font-weight: bold;
+	font-family: Georgia, serif;
+}
+.draft {
+	float: right;
+	height: 265px;
+	width: 220px;
+	margin-right: 15px;
+	margin-left: 10px;
+	background-color: #eaeaea;
+	padding-bottom: 0;
+	font-size: 50%;
+	box-shadow: 5px 5px 5px #333333;
+}
+.locker {
+	font-weight: bold;
+}
