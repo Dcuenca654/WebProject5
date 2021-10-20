@@ -3,13 +3,6 @@ body {background-color: #ffffff;
 	 background-image: linear-gradient(to bottom,
 		#F51219, #ffffff, #fdfd3e, #ffffff, #F51219);
 	 }
-#KCingdom {
-	color: #000000;
-	background-color: #ffffff;
-	overflow: hidden;
-	background-size:contain;
-
-}
 h1 {
 	color: #000000;
 	text-indent: 100%;
@@ -191,3 +184,50 @@ aside {
 .locker {
 	font-weight: bold;
 }
+
+/*  Media Query Design */
+
+@media only screen and (max-width: 768px){
+	main {
+		margin: 0px;
+	}
+	body {
+		margin: 0px;
+	}
+	h1,h2,h3 {
+		font-size: 120%;
+	}
+	p {
+		font-size: 80%;
+	}
+	#wright {
+		display: none;
+	}
+	#KCKingdom {
+		height:150px;
+	}
+	nav {
+		float:none;
+		width:auto;
+	}
+	nav ul {
+		text-align: center;
+	}
+	nav li {
+		display:inline-block;
+		padding: 0.2em;
+	}
+	nav a {
+		border: none;
+	}
+	#chiefsnav, #chiefsnav1, #chiefsnav2, #chiefsnav3,
+	#chiefsnav4, #chiefsnav5 {
+		display: none;
+	}
+	aside {
+		float: none;
+		width: auto;
+
+
+	}
+	}
